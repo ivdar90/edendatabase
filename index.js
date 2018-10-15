@@ -74,7 +74,7 @@ user.remove(err => {
   })
 })
 
-mongoose.connect('mongodb://localhost:27017/eden', (err, res) => {
+mongoose.connect('mongodb://edenadmin:1234abcd@ds037468.mlab.com:37468/edenusersdb', (err, res) => {
     if(err) {
         return console.log(`error al conectar a la base de datos: ${err}`)
     }
